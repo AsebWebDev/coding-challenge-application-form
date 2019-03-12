@@ -23,10 +23,12 @@ class App extends Component {
   render() {
     return (
       <MDBContainer className="mt-5 text-center">
+      <span>HOME</span>
       <MDBRow>
         <MDBCol>
           <MDBJumbotron>
-            <h2 className="h1 display-3">Tell us about ...</h2>
+            {this.state.phase <= 3 && <h2 className="h1 display-3">Tell us about ...</h2>}
+            {this.state.phase > 3 && <h2 className="h1 display-3">Correct?</h2>}
             <hr className="my-2" />
             <MDBContainer>
               <Input phase={this.state.phase}/>   

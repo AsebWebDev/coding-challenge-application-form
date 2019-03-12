@@ -8,14 +8,16 @@ body, html {
   -moz-osx-font-smoothing: grayscale;
 
   background-image: url(./images/home.jpg);
-  height: 100%;
+  height: 90%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.jumbotron {
-  margin-top: 15%;
+span {
+  font-size: 8rem;
+  color: white;
+  font-weight: bold;
 }
 
 .input {
@@ -24,10 +26,4 @@ body, html {
 
 .radio-button {
   margin: 10px;
-}
-
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }

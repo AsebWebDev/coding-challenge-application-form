@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
-import { MDBJumbotron, MDBBtn, MDBContainer, MDBProgress, MDBRow, MDBCol, MDBAnimation} from "mdbreact";
-// import Row from '../Row';
+import { MDBProgress, MDBRow, MDBCol} from "mdbreact";
 
 export default class Input extends Component {
   constructor(props) {
@@ -83,9 +81,11 @@ export default class Input extends Component {
         </MDBRow>
         )
         case 4: return (
-          <MDBRow className="d-flex justify-content-center input">
+          <MDBRow className="d-flex justify-content-center align-items-center input">
             <MDBCol md="6">
-              <p>ENDE</p>
+              <h5>First Name: <strong><br />{this.state.firstname}</strong></h5>
+              <h5>Last Name: <strong>{this.state.lastname}</strong></h5>
+              <h5>Phone Number: <strong>{this.state.phonenumber}</strong></h5>
             </MDBCol>
           </MDBRow>
           )
