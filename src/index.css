@@ -22,6 +22,10 @@ body, html {
   height: 250px;
 }
 
+.radio-button {
+  margin: 10px;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

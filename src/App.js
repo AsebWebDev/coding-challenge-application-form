@@ -33,8 +33,8 @@ class App extends Component {
             </MDBContainer>
             <p className="lead d-flex justify-content-around">
               {this.state.phase > 1 && <MDBBtn onClick={e => this.handleClickBack(e)} color="primary">Back</MDBBtn>}
-              <MDBBtn onClick={e => this.handleClickNext(e)} color="secondary">Next</MDBBtn> 
-              {/* TODO: Fix me, when progress ends */}
+              {this.state.phase < 4 && <MDBBtn onClick={e => this.handleClickNext(e)} color="secondary">Next</MDBBtn>}
+              {this.state.phase > 3 && <MDBBtn onClick={e => this.handleClickNext(e)} color="secondary">Submit</MDBBtn>}
             </p>
           </MDBJumbotron>
         </MDBCol>
