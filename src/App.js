@@ -14,7 +14,7 @@ class App extends Component {
   handleClickBack = (e) => {
     this.setState({ phase: this.state.phase-1})
   }
-  
+
   handleClickNext = (e) => {
     this.setState({ phase: this.state.phase+1})
   }
