@@ -18,6 +18,10 @@ body, html {
   margin-top: 15%;
 }
 
+.input {
+  height: 250px;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

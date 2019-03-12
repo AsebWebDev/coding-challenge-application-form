@@ -29,12 +29,12 @@ class App extends Component {
             <h2 className="h1 display-3">Tell us about ...</h2>
             <hr className="my-2" />
             <MDBContainer>
-                 <Input phase={this.state.phase}/>   
+              <Input phase={this.state.phase}/>   
             </MDBContainer>
-            
-            <p className="lead d-flex justify-content-between">
-              <MDBBtn onClick={e => this.handleClickBack(e)} color="primary">Back</MDBBtn>
-              <MDBBtn onClick={e => this.handleClickNext(e)} color="secondary">Next</MDBBtn>
+            <p className="lead d-flex justify-content-around">
+              {this.state.phase > 1 && <MDBBtn onClick={e => this.handleClickBack(e)} color="primary">Back</MDBBtn>}
+              <MDBBtn onClick={e => this.handleClickNext(e)} color="secondary">Next</MDBBtn> 
+              {/* TODO: Fix me, when progress ends */}
             </p>
           </MDBJumbotron>
         </MDBCol>
