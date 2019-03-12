@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol, MDBAnimation} from "mdbreact";
+import { MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol} from "mdbreact";
 import Input from './Components/Input';
 import './App.css';
 

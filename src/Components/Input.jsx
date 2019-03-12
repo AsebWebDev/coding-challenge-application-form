@@ -57,23 +57,23 @@ export default class Input extends Component {
               <div className="d-flex flex-wrap justify-content-center">
                 <div className="radio-button">
                   <label htmlFor="salary" className="grey-text">0-1000</label>
-                  <input type="radio" name="salary" className="form-control" value={this.state.salary} onChange={e => this.handleInputChange("salary", e)} />
+                  <input type="radio" name="salary" className="form-control"/>
                 </div>
                 <div className="radio-button">
                   <label htmlFor="salary" className="grey-text">1000-2000</label>
-                  <input type="radio" name="salary" className="form-control" value={this.state.salary} onChange={e => this.handleInputChange("salary", e)} />
+                  <input type="radio" name="salary" className="form-control"/>
                 </div>
                 <div className="radio-button">
                   <label htmlFor="salary" className="grey-text">2000-3000</label>
-                  <input type="radio" name="salary" className="form-control" value={this.state.salary} onChange={e => this.handleInputChange("salary", e)} />
+                  <input type="radio" name="salary" className="form-control"/>
                 </div>
                 <div className="radio-button">
                   <label htmlFor="salary" className="grey-text">3000-4000</label>
-                  <input type="radio" name="salary" className="form-control" value={this.state.salary} onChange={e => this.handleInputChange("salary", e)} />
+                  <input type="radio" name="salary" className="form-control"/>
                 </div>
                 <div className="radio-button">
                   <label htmlFor="salary" className="grey-text">>4000</label>
-                  <input type="radio" name="salary" className="form-control" value={this.state.salary} onChange={e => this.handleInputChange("salary", e)} />
+                  <input type="radio" name="salary" className="form-control"/>
                 </div>
               </div>
             </form>
